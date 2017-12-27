@@ -27,7 +27,7 @@ gulp.task('sass', function () {
 		.pipe(sass())
 		.on('error', sass.logError)
 		.pipe(postcss([autoprefixer({
-			browsers: ['last 2 versions']
+			browsers: ['last 5 versions']
 		}),postcssFlexbugsFixes()]))
 		.pipe(sourcemaps.write('./maps'))
 		.pipe(gulp.dest('./dist/css'))
