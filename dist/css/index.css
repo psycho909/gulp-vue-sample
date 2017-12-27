@@ -2,4 +2,18 @@
   font-size: 12px;
   color: gold; }
 
+.flex-box {
+  width: 600px;
+  height: 600px;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .flex-box .flex {
+    background-color: gold;
+    padding: 1rem;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1 1; }
+
 /*# sourceMappingURL=maps/index.css.map */
